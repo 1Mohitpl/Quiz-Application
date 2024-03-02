@@ -1,0 +1,108 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #3d7eaa;
+  background: -webkit-linear-gradient(to right, #ffe47a, #3d7eaa);
+  background: linear-gradient(to right, #ffe47a, #3d7eaa);
+}
+
+ .container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.box {
+  height: 80vh;
+  width: 50%;
+  background-color: #ffff;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+
+#question {
+  height: 40px;
+  font-style: italic;
+  position: relative;
+}
+
+.btn{
+
+
+    display: flex;
+    padding: 2rem 2rem;
+    
+}
+
+ #submit{
+    justify-content: center;
+    border-radius: 20px;
+    color: skyblue;
+    
+ }
+
+ #submit:hover{
+
+    text-shadow: 100px;
+    background-color: rgb(7, 48, 172);
+ }
+h2 {
+  text-shadow: 3px 3px 3px rgb(238, 255, 0);
+  text-shadow: 3px 3px 3px rgba(25, 18, 78, 0.687), 6px 6px 6px rgb(35, 1, 138);
+}
+
+ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 5rem;
+}
+
+li{
+
+    list-style: none;
+    min-width: 40%;
+    min-height: 3rem;
+    border-radius: 20px;
+    border: 0.2rem solid rgb(224,224, 224);
+    padding: 0 4rem 0 3rem;
+    -webkit-broder-radius:4rem;
+    -moz-border-radius:4rem;
+    -ms-border-radius:4rem;
+    -o-border-radius :4rem;
+    -webkit-border-radius :4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+label{
+     padding-left: 5rem;
+}
+
+input [type = "radio"] {
+
+    height: 30px;
+    width: 30px;
+}
+
+input [type = "radio"] :checked{
+
+    background-color: rgb(245, 245, 245);
+    border-color: #040a0b;
+}
+
