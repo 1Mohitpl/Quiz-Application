@@ -17,10 +17,10 @@
   align-items: center;
 } 
 
-.box {
-  height: 80vh;
-  width: 50%;
-  background-color: #ffff;
+.Box {
+  height:auto;
+  width: auto;
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
   border-radius: 40px;
   display: flex;
   flex-direction: column;
@@ -45,6 +45,8 @@
 }
 
  #submit{
+  height: 50px;
+  width: 70px;
     justify-content: center;
     border-radius: 20px;
     color: skyblue;
@@ -55,54 +57,42 @@
 
     text-shadow: 100px;
     background-color: rgb(7, 48, 172);
+    transition: width 2s;
  }
 h2 {
   text-shadow: 3px 3px 3px rgb(238, 255, 0);
-  text-shadow: 3px 3px 3px rgba(25, 18, 78, 0.687), 6px 6px 6px rgb(35, 1, 138);
+  text-shadow: 3px 3px 3px rgba(194, 209, 172, 0.687), 6px 6px 6px rgb(210, 62, 163);
 }
+
+
 
 ul{
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 2rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 5rem;
 }
 
 li{
 
-    list-style: none;
-    min-width: 40%;
-    min-height: 3rem;
-    border-radius: 20px;
-    border: 0.2rem solid rgb(224,224, 224);
-    padding: 0 4rem 0 3rem;
-    -webkit-broder-radius:4rem;
-    -moz-border-radius:4rem;
-    -ms-border-radius:4rem;
-    -o-border-radius :4rem;
-    -webkit-border-radius :4rem;
-    font-size: 1.8rem;
-    font-weight: bold;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-label{
-     padding-left: 5rem;
-}
-
-input [type = "radio"] {
-
-    height: 30px;
-    width: 30px;
-}
-
-input [type = "radio"] :checked{
-
-    background-color: rgb(245, 245, 245);
-    border-color: #040a0b;
+  list-style: none;
+  min-width: 40%;
+  min-height: 3rem;
+  border-radius: 20px;
+  border: 0.2rem solid rgb(224,224, 224);
+  padding: 0 4rem 0 3rem;
+  -webkit-broder-radius:4rem;
+  -moz-border-radius:4rem;
+  -ms-border-radius:4rem;
+  -o-border-radius :4rem;
+  -webkit-border-radius :4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 

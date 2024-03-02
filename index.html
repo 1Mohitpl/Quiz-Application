@@ -1,63 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz-Application</title>
-    <link rel="stylesheet" href="styele.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styele.css" />
+    <title>Quiz-website</title>
+  </head>
+  <body>
     <div class="main">
-         <div class="container">
-         
+      <div class="container">
+        <div class="Box">
+          <h2 class="question" id="question">Quiz question</h2>
+          <ul>
+            <li>
+              <input type="radio" name="answer" class="answer" id="a" />
 
-         <div class="box">
+              <label for="a" id="option_1">quiz option</label>
+            </li>
 
+            <li>
+              <input type="radio" name="answer" class="answer" id="b" />
 
+              <label for="b" id="option_2">quiz option</label>
+            </li>
+            <li>
+              <input type="radio" name="answer" class="answer" id="c" />
 
-            <h2 class="question" id="question">Quiz question</h2>
-            <ul>
- 
-         <li>
-             <input type="radio" name="answer" class="answer" id="a">
-               
-            <label for="a" id="option_1">quiz option</label>
-         </li>
- 
-         <li>
-             <input type="radio" name="answer" class="answer" id="a">
-               
-            <label for="a" id="option_1">quiz option</label>
-         </li>
-         <li>
-             <input type="radio" name="answer" class="answer" id="a">
-               
-            <label for="a" id="option_1">quiz option</label>
-         </li>
- 
-         <li>
-             <input type="radio" name="answer" class="answer" id="a">
-               
-            <label for="a" id="option_1">quiz option</label>
-         </li>
- </ul>
- 
-            <div class="btn">
- 
-               <button type="submit" id="submit">Submit</button>
-               
-            </div>
+              <label for="c" id="option_3">quiz option</label>
+            </li>
 
-         </div>   
-            
-         
+            <li>
+              <input type="radio" name="answer" class="answer" id="d" />
 
-   
-            
+              <label for="d" id="option_4">quiz option</label>
+            </li>
+          </ul>
 
-         </div>
-
+          <div class="btn">
+            <button type="submit" id="submit">Submit</button>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</body>
+
+    <script src="index.js"></script>
+  </body>
 </html>
